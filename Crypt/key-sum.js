@@ -1,0 +1,1 @@
+module.exports = key => key.split('').reduce((sum, char) => sum + char.charCodeAt(0), 0)
